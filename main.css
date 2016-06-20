@@ -1,3 +1,49 @@
+/*begin CSS reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end CSS reset*/
+
 html {
   background: url(images/veg-back.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -33,10 +79,12 @@ nav li a {
 
 }
 
+/*added hover color*/
 nav li a:hover {
 	color: #73007C;
 }
 
+/*This is a fixed social media bar*/
 .social {
 	margin: 20px;
 	padding-top: 50px;
@@ -48,13 +96,16 @@ nav li a:hover {
 .social ul {
 	list-style-type: none;
 }
+/*end social media bar*/
 
+/*Second column on contact page*/
 .other-float {
 	float: right;
 	margin: 20px;
 	display: inline-block;
 	width: 85%;
 }
+/*end second column*/
 
 h1 {
 	font-family: 'Work Sans', sans-serif;
@@ -66,6 +117,7 @@ h3 {
 	color: #32491E;
 }
 
+/*This part serves to make three (3) columns*/
 .raspberries {
 	float: left;
 	width: 30%;
@@ -83,6 +135,7 @@ h3 {
 	display: 30%;
 	margin: 5px;
 }
+/*end three (3) columns*/
 
 p {
 	font-family: 'Work Sans', sans-serif;
