@@ -1,0 +1,168 @@
+html {
+  background: url(images/veg-back.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  background-size: 100% 100%;
+}
+
+nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+}
+
+nav ul {
+	list-style-type:none;
+	font-family: 'Work Sans', sans-serif;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #66C917;
+	border-right: 1px solid #ccc;
+
+}
+
+nav li a:hover {
+	color: #73007C;
+}
+
+.social {
+	margin: 20px;
+	padding-top: 50px;
+	float: left;
+	position: fixed;
+	width: 15%;
+}
+
+.social ul {
+	list-style-type: none;
+}
+
+.other-float {
+	float: right;
+	margin: 20px;
+	display: inline-block;
+	width: 85%;
+}
+
+h1 {
+	font-family: 'Work Sans', sans-serif;
+	color: #254908;
+}
+
+h3 {
+	font-family: 'Work Sans', sans-serif;
+	color: #32491E;
+}
+
+.raspberries {
+	float: left;
+	width: 30%;
+	margin: 5px;
+}
+
+.spinach {
+	display: inline-block;
+	width: 30%;
+	margin: 5px;
+}
+
+.rhubarb {
+	float: right;
+	display: 30%;
+	margin: 5px;
+}
+
+p {
+	font-family: 'Work Sans', sans-serif;
+	color: #4C9611;
+}
+
+.fresh {
+	width: 768px;
+	height: 512px;
+}
+
+.fresh img {
+	width: 30%;
+	height: auto;
+}
+
+.float-left {
+	width: 384px;
+	height: 256px;
+}
+
+.float-left img {
+	width: 100%;
+	height: auto;
+	float: left;
+	padding: 20px;
+}
+
+.social-media {
+	background-color: #73007C;
+}
+
+#end {
+	font-size: 20pt;
+}
+
+.kobocha {
+	width: 384px;
+	height: 256px;
+}
+
+.kobocha img {
+	width: 20%;
+	height: auto;
+	float: left;
+	margin: 20px;
+}
+
+.fields {
+	width: 384px;
+	height: 256px;
+}
+
+.fields img {
+	width: 30%;
+	height: auto;
+	float: right;
+	margin: 20px;
+}
+
+.radishes {
+	width: 384px;
+	height: 256px;
+}
+
+.radishes img {
+	width: 30%;
+	height: auto;
+	float: left;
+	margin: 20px;
+}
+
+.asparagus {
+	width: 384px;
+	height: 256px;
+}
+
+.asparagus img {
+	width: 20%;
+	height: auto;
+	float: right;
+	margin: 20px;
+}
